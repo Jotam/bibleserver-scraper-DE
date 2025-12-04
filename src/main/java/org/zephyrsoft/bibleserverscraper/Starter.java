@@ -21,15 +21,15 @@ public class Starter {
 			// fetch the data
 			Scraper scraper = new Scraper();
 			scraper.scrape(rawDirectory);
-
-			// export bibles in MySword format
-			MySwordExporter mySwordExporter = new MySwordExporter();
-			mySwordExporter.export(rawDirectory, mySwordDirectory);
 			
 			// export bibles in OpenLP format
 			OpenLPExporter openlpExporter = new OpenLPExporter();
 			openlpExporter.export(rawDirectory, openlpDirectory);
-
+			
+			// export bibles in MySword format
+			MySwordExporter mySwordExporter = new MySwordExporter();
+			mySwordExporter.export(rawDirectory, mySwordDirectory);
+			
 			// export LaTeX document for comparing the translations
 			//LaTeXExporter latexExporter = new LaTeXExporter();
 			//latexExporter.export(rawDirectory, latexDirectory);
