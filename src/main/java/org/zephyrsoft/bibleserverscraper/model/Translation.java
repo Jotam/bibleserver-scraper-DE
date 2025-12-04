@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 
 public enum Translation {
 
+	NEÜ("NEÜ", "Neue evangelistische Übersetzung", BookChapter::getNameGerman),
 	LUT("LUT", "Luther 2017", BookChapter::getNameGerman),
 	ELB("ELB", "Elberfelder", BookChapter::getNameGerman),
 	HFA("HFA", "Hoffnung für alle", BookChapter::getNameGerman),
@@ -15,7 +16,7 @@ public enum Translation {
 	EU("EU", "Einheitsübersetzung", BookChapter::getNameGerman),
 	MENG("MENG", "Menge Bibel", BookChapter::getNameGerman),
 	NLB("NLB", "Neues Leben. Die Bibel", BookChapter::getNameGerman),
-	NEÜ("NEÜ", "Neue evangelistische Übersetzung", BookChapter::getNameGerman);
+	VXB("VXB", "Volxbibel", BookChapter::getNameGerman);
 	// ESV("ESV", "English Standard Version", BookChapter::getNameEnglish),
 	// NBV("NBV", "Nueva Biblia Viva", BookChapter::getNameSpanish);
 
