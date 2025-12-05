@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.zephyrsoft</groupId>
-	<artifactId>bibleserver-scraper-DE</artifactId>
-	<version>1.1.0-SNAPSHOT</version>
+	<artifactId>die-bibel-scraper-DE</artifactId>
+	<version>1.0.1</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
