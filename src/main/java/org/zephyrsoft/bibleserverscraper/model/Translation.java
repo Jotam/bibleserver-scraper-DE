@@ -18,7 +18,7 @@ public enum Translation {
 	NLB("NLB", "Neues Leben. Die Bibel", BookChapter::getNameGerman),
 	VXB("VXB", "Volxbibel", BookChapter::getNameGerman);
 	// ESV("ESV", "English Standard Version", BookChapter::getNameEnglish),
-	// NIV("NIV", "English Standard Version", BookChapter::getNameEnglish),
+	// NIV("NIV", "New International Version", BookChapter::getNameEnglish),
 	// NBV("NBV", "Nueva Biblia Viva", BookChapter::getNameSpanish);
 
 	private String abbreviation;
