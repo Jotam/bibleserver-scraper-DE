@@ -5,7 +5,7 @@
 
 	<groupId>org.zephyrsoft</groupId>
 	<artifactId>bibleserver-scraper-DE</artifactId>
-	<version>1.2.1</version>
+	<version>1.3.0</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
